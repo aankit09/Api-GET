@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:post_api/practice/example_four.dart';
-import 'package:post_api/practice/example_one.dart';
-import 'package:post_api/practice/example_three.dart';
-
-import 'practice/example_two.dart';
+import 'package:post_api/practice/example_post_five.dart';
+import 'package:post_api/practice/example_post_six.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ExampleFour(),
+      home: const ExampleSix(),
     );
   }
 }
