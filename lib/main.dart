@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:post_api/practice/example_img.dart';
 import 'package:post_api/practice/example_post_five.dart';
 import 'package:post_api/practice/example_post_six.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ExampleSix(),
+      home: const ExampleImageApi(),
     );
   }
 }
